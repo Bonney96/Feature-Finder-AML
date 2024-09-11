@@ -3,9 +3,6 @@
 ## Concept Map
 - **AML Histone Modifications ML Concept Map**: [View the concept map](https://lucid.app/lucidchart/8f9cda5f-7753-4761-a9dd-4e08d61c37d2/edit?viewport_loc=-1083%2C-1158%2C4619%2C2226%2C0_0&invitationId=inv_1b0bc6d4-359a-4f1b-9018-e0c8575d44ca)
 
-## GitHub Repository
-- **Project Repository**: [Feature-Finder-AML](https://github.com/Bonney96/Feature-Finder-AML)
-
 ## Requirements
 
 ### Infrastructure and Software:
