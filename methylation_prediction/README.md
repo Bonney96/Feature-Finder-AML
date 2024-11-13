@@ -64,7 +64,7 @@ methylation_prediction/
 ├── tests/                         # Unit tests for various components
 ├── requirements.txt               # Python dependencies
 ├── README.md                      # Project documentation
-
+```
 
 Installation
 To install the necessary dependencies, follow these steps:
