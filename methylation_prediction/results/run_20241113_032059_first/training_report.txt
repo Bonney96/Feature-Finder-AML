@@ -1,0 +1,23 @@
+
+Methylation Level Prediction Report
+===================================
+
+Date and Time: 13 November 2024, 03:21
+
+Hyperparameters Used:
+---------------------
+{'embedding_dim': 16, 'num_filters_conv1': 64, 'num_filters_conv2': 64, 'kernel_size_conv1': 7, 'kernel_size_conv2': 3, 'fc_size_dna': 384, 'histone_input_size': 6, 'histone_hidden_size': 192, 'joint_hidden_size': 384, 'dropout_rate': 0.12167394994560636, 'activation_func': 'relu', 'max_seq_len': 1000, 'learning_rate': 0.0009398657256433937, 'batch_size': 16, 'num_epochs': 10, 'model_save_path': '/storage1/fs1/dspencer/Active/spencerlab/abonney/methylation_prediction/models/best_model.pth'}
+
+Training Results:
+-----------------
+- Training MSE: 0.042724
+
+Validation Results:
+-------------------
+- Validation MSE: 0.041402
+
+Test Results:
+-------------
+- Test MSE: 0.044307
+- Test MAE: 0.169610
+- Test R² Score: 0.290129

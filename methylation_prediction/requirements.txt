@@ -1,0 +1,32 @@
+# Data handling
+pandas==1.5.3
+numpy==1.24.3
+
+# Machine Learning and Deep Learning
+torch==1.13.1  # or a version compatible with your CUDA setup
+scikit-learn==1.2.2
+
+# Model interpretability
+captum==0.5.0
+pyranges==0.0.119  # for genomic ranges manipulation
+
+# Hyperparameter tuning
+optuna==3.1.0
+
+# Plotting and visualization
+matplotlib==3.7.1
+plotly==5.13.0  # For interactive plots
+seaborn==0.12.2  # Optional if needed for additional plotting
+
+# Utility libraries
+PyYAML==6.0  # For reading config files
+tqdm==4.64.0  # For progress bars
+
+# Logging
+logging==0.4.9.6
+
+# File handling and I/O
+pytz==2023.3  # For timezone handling
+
+# Optional dependencies
+ipykernel==6.16.1  # For running in Jupyter notebooks if needed

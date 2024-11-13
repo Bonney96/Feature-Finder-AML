@@ -1,0 +1,45 @@
+# config/config.yaml
+
+data:
+  csv_file_path: '/storage1/fs1/dspencer/Active/spencerlab/abonney/regions/ML_trimmed_dmr_dataset_DNMT3A882.csv'
+  bed_file_path: '/storage1/fs1/dspencer/Active/spencerlab/data/cut_and_tag/04_reporting/igv/genes.bed.bed.gz'
+  gene_annotations_bed_file_path: '/storage1/fs1/dspencer/Active/spencerlab/data/cut_and_tag/04_reporting/igv/genes.bed.bed.gz'
+  histone_marks:
+    - 'H3K4me1'
+    - 'H3K4me3'
+    - 'H3K9me3'
+    - 'H3K27ac'
+    - 'H3K27me3'
+    - 'H3K36me3'
+  unique_sample_value: 335640
+  genes_of_interest:
+    - 'RUNX1'
+    - 'HOXA1'
+    - 'DNMT3A'
+    - 'FLT3'
+    - 'CEBPA'
+    - 'GATA2'
+
+model:
+  embedding_dim: 32
+  num_filters_conv1: 64
+  num_filters_conv2: 128
+  kernel_size_conv1: 5
+  kernel_size_conv2: 5
+  fc_size_dna: 256
+  histone_input_size: 6
+  histone_hidden_size: 128
+  joint_hidden_size: 256
+  dropout_rate: 0.5
+  activation_func: 'relu'
+  max_seq_len: 1000
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 10
+  optuna_trials: 20
+  model_save_path: 'models/best_model.pth'
+
+logging:
+  log_file: 'logs/training.log'
