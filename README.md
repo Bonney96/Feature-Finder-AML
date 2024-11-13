@@ -8,3 +8,6 @@
 - **Methylation Data**: Whole-genome bisulfite sequencing (WGBS) for DMRs.
 - **Mutational Data**: WGS for DNA sequences.
 - **Control Data**: Healthy blood stem cells (CD34+).
+
+12NOV24
+methylation_prediction/ contains the current program based on a 1D CNN. Input data is not included.
