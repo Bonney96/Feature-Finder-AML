@@ -4,22 +4,6 @@ This project implements a machine learning model to predict DNA methylation leve
 
 ---
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Directory Structure](#directory-structure)
-3. [Installation](#installation)
-4. [Usage](#usage)
-   - [Configuration](#configuration)
-   - [Training the Model](#training-the-model)
-   - [Evaluating the Model](#evaluating-the-model)
-   - [Running Interpretability Analysis](#running-interpretability-analysis)
-5. [Results](#results)
-6. [License](#license)
-7. [Contact](#contact)
-
----
-
 ## Project Overview
 
 The goal of this project is to predict DNA methylation levels using sequence information and histone mark features. The model architecture is divided into two main modules:
