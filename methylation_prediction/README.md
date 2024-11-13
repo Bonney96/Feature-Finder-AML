@@ -66,33 +66,6 @@ methylation_prediction/
 ├── README.md                      # Project documentation
 ```
 
-Installation
-To install the necessary dependencies, follow these steps:
-
-Clone the Repository
-
-bash
-Copy code
-git clone https://github.com/yourusername/methylation_prediction.git
-cd methylation_prediction
-Install Dependencies
-
-We recommend using a virtual environment:
-
-bash
-Copy code
-python3 -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
-pip install -r requirements.txt
-Usage
-Configuration
-Before running any scripts, ensure that the configuration file (config/config.yaml) is correctly set up. This file specifies paths to your data, model hyperparameters, training settings, and other relevant parameters. Modify these settings according to your setup and data paths.
-
-Training the Model
-To train the model, use the run_training.py script:
-
-bash
-Copy code
 python scripts/run_training.py
 This script will:
 
@@ -119,6 +92,9 @@ Model Checkpoints: Saved model states for reproducibility.
 Plots and Visualizations: Prediction vs. actual plots, feature importance, saliency maps, and confusion matrices.
 Training Logs: A comprehensive log of the training process, including hyperparameter settings and evaluation metrics.
 Interpretability Reports: Saliency maps and gene-specific analyses to interpret model predictions.
+
+
+
 License
 This project is licensed under the MIT License. See LICENSE for more information.
 
